@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "huk.dji-mic",
+  "name": "DJI Mic",
+  "version": "1.0.0",
+  "author": "Pavlo Huk",
+  "license": "MIT",
+  "description": "DJI Mic Mini receiver in the bar: transmitter battery, live input level and settings, without the phone app.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "DJI Mic",
+    "description": "Shows while the DJI Mic receiver is plugged in. Battery, input level, voice tone, low cut, LEDs, limiter and mono/stereo.",
+    "category": "Status",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}

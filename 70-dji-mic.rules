@@ -1,0 +1,2 @@
+# DJI Mic Mini USB-C receiver: let the logged-in user talk to its control interface.
+SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTR{idVendor}=="2ca3", ATTR{idProduct}=="4011", TAG+="uaccess"
